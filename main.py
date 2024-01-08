@@ -35,7 +35,7 @@ keep_alive()
 while True:
 
     # TALK SCHEDULE AUTOMATION (Date and Time adjusted by -8 to accomodate to time zone of GMT+8 12:00 PM)
-    if datetime.now().weekday() == 6 and datetime.now().hour == 16 and datetime.now().minute <= 29:
+    if datetime.now().weekday() == 0 and datetime.now().hour == 8 and datetime.now().minute <= 59:
 
         try:
       
